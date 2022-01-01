@@ -1,0 +1,26 @@
+.dice {
+  display: flex;
+  flex-flow: column nowrap;
+  min-height: 100vh;
+  }
+  
+  .diceFace {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  }
+  
+  .diceButton {
+    width:15em;
+    padding:1.5em;
+    border: 0px;
+    border-radius: 10px;
+    color:white;
+    background-color:black;
+    margin-top: 3em;
+    align-self: center;
+  }
+  .win {
+    text-align: center;
+  }
+  
